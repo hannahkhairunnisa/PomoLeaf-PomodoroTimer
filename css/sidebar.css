@@ -1,0 +1,184 @@
+:root {
+    --hijau1-color : #4C6444;
+    --hijau2-color : #77996C;
+    --hijau3-color : #102820;
+    --coklat-color : #B3865F;
+    --cream-color : #FAF9E2;
+    --cream2-color : #F8F6D4;
+}
+
+body {
+    position: relative; 
+}
+
+/* Hamburger Menu */
+
+.hamburger i{
+    padding: 0.4rem;
+}
+
+.hamburger {
+    color: var(--cream-color);
+    font-size: 1.5rem;
+    border: #102820;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.10);
+    
+    background-color: transparent;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    z-index: 3;
+}
+
+/* Sidebar */
+
+.offcanvas {
+    z-index: 5 !important;
+    width: 22rem !important;
+    background-color: var(--cream-color);
+    
+}
+
+.offcanvas-backdrop {
+    z-index: 4 !important;
+}
+
+.offcanvas-backdrop {
+    transition: 1s ease !important;
+}
+
+.offcanvas-backdrop.fade {
+    transition: opacity 1s ease !important;
+}
+
+h5 {
+    color: var(--hijau1-color);
+    font-weight: 700;
+}
+
+.logo {
+    scale: 0.6;
+}
+
+.list{
+    color: var(--hijau1-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+    list-style: none;
+    padding: 0% !important;
+}
+
+.list img {
+    scale: 0.4;
+}
+
+.offcanvas-body .nav-link {
+    display: block;
+    border: 0.2rem solid var(--hijau1-color);
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+    transition: all 0.3s ease;
+    text-align: start;
+}
+
+.nav-link:hover {
+    background-color: var(--cream2-color);
+}
+
+/* Content box */
+
+.sembunyi {
+    display: none;
+}
+
+.content-box {
+    position: fixed;
+    left: 24rem;
+    top: 1rem;
+    width: 20rem;
+    z-index: 15 !important;
+    background: var(--cream-color);
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    z-index: 17 !important;
+}
+
+/* To do box */
+
+.todo-box .btn {
+    background-color: var(--hijau1-color);
+    color: var(--cream-color);
+    
+}
+
+.todo-box li {
+    list-style: none;
+    padding: 0.7rem 1rem 0.7rem 2.5rem;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.todo-box li::before {
+    content: '';
+    position: absolute;
+    height: 1.4rem;
+    width: 1.4rem;
+    background-image: url(../assets/img/unchecked.png);
+    background-size: 1.2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 12px;
+    left: 8px;
+}
+
+.todo-box li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+.todo-box li.checked::before {
+    background-image: url(../assets/img/checked.png);
+}
+
+.todo-box li span {
+    position: absolute;
+    right: 0px;
+    top: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    color: var(--hijau1-color);
+    text-align: center;
+}
+
+.todo-box li span:hover {
+    color: var(--hijau3-color);
+}
+
+/* Music Player */
+
+.music-box {
+    height: 31rem;
+}
+
+.music-box .btn {
+    background-color: var(--hijau1-color);
+    color: var(--cream-color);
+}
+
+/* Chart */
+.chart-container {
+    z-index: 1550;
+}
+
+/* Settings Box */
+
+.setting-box .btn {
+    background-color: var(--hijau1-color);
+    color: var(--cream-color);
+}

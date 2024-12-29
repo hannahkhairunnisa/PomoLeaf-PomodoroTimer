@@ -1,0 +1,98 @@
+:root {
+    --hijau1-color : #4C6444;
+    --hijau2-color : #77996C;
+    --hijau3-color : #102820;
+    --coklat-color : #B3865F;
+    --cream-color : #FAF9E2;
+}
+
+* {
+    z-index: 2 !important;
+}
+
+body {
+    background: linear-gradient(var(--hijau2-color), var(--hijau1-color));
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+#homepage {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.card {
+    border-radius: 0.5rem !important;
+    margin-top: 1rem;
+    background: var(--cream-color) !important;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.10);
+    border: none;
+
+    transition: all  .2s ease-in;
+}
+
+
+#homepage h4{
+    font-weight: 700;
+    color: var(--hijau1-color);
+}
+
+#homepage img{
+    scale: 0.68;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.container {
+    width: 100%;
+}
+
+.button1 {
+    padding: 0.5rem;
+    border: none;
+    color: #4C6444;
+    background-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.button-focus {
+    outline: 0.25rem solid var(--hijau1-color) !important;
+    box-shadow: none;
+    transition: all  .2s ease-in;
+    border-radius: 3px;
+}
+
+.button2 {
+    color: var(--cream-color);
+    border-radius: 0.5rem;
+    padding: 0.6rem 2.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.7rem;
+    border: none;
+    background-color: var(--hijau1-color);
+    font-size: 1.4rem;
+}
+
+.reset {
+    background-color: transparent;
+    color: var(--hijau1-color);
+    border: none;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#time { 
+    color: var(--hijau1-color); 
+    font-size: 11rem;
+    font-weight: 600;
+}

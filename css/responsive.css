@@ -1,0 +1,74 @@
+:root {
+    --hijau1-color : #4C6444;
+    --hijau2-color : #77996C;
+    --hijau3-color : #102820;
+    --coklat-color : #B3865F;
+    --cream-color : #FAF9E2;
+    --cream2-color : #F8F6D4;
+}
+
+.offcanvas {
+    transition: transform 0.3s ease-in-out !important;
+    background-color: var(--cream-color);
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .body {
+        height: 200%;
+    }
+
+    .offcanvas-start {
+        transform: translateY(-100%) !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 52vh !important;
+        will-change: transform;
+        background: var(--cream-color);
+    }
+
+    .offcanvas-start.show {
+        transform: translateY(0) !important;
+        opacity: 1;
+    }
+
+    .offcanvas-start:not(.show) {
+        transform: translateY(-100%) !important;
+        opacity: 0;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out !important;
+    }
+    
+
+    .content-box {
+        top: 22rem;
+        left: 4%;
+        width: 90%;
+    }
+
+    #time { 
+        font-size: 8rem;
+    }
+
+    .offcanvas-body .nav-link {
+        width: 15rem;
+    }
+
+    .offcanvas-body .list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+}
+
+/* @media (min-width: 769px) {
+    .offcanvas-start {
+        transform: translateX(-100%);
+        will-change: transform;
+    }
+
+    .offcanvas-start.show {
+        transform: translateX(0);
+    }
+} */

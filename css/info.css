@@ -1,0 +1,57 @@
+:root {
+    --hijau1-color : #4C6444;
+    --hijau2-color : #77996C;
+    --hijau3-color : #102820;
+    --coklat-color : #B3865F;
+    --cream-color : #FAF9E2;
+    --cream2-color : #F8F6D4;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--cream-color);
+}
+
+.back {
+    background-color: transparent;
+    border: none;
+    color: var(--hijau1-color);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    scale: 1.5;
+}
+
+.text {
+    padding-top: 2rem;
+    text-align: justify;
+}
+
+.header {
+    margin-bottom: 2.5rem;
+}
+
+h4 {
+    font-weight: 700;
+    color: var(--hijau1-color);
+}
+
+img {
+    scale: 0.68;
+}
+
+.content {
+    margin-bottom: 3rem;
+}
+
+h3 {
+    color: var(--hijau1-color);
+    font-weight: 600;
+}
+
+p {
+    color: var(--hijau3-color);
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
