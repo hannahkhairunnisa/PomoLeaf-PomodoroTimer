@@ -25,12 +25,10 @@ body {
 
 .card {
     border-radius: 0.5rem !important;
-    margin-top: 1rem;
+    margin-top: 0.6rem;
     background: var(--cream-color) !important;
     box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.10);
     border: none;
-
-    transition: all  .2s ease-in;
 }
 
 
@@ -54,7 +52,7 @@ body {
     border: none;
     color: #4C6444;
     background-color: transparent;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .button-focus {
@@ -68,7 +66,7 @@ body {
     color: var(--cream-color);
     border-radius: 0.5rem;
     padding: 0.6rem 2.5rem;
-    margin-top: 0.3rem;
+    margin-top: 0.1rem;
     margin-bottom: 0.7rem;
     border: none;
     background-color: var(--hijau1-color);
@@ -93,6 +91,6 @@ body {
 
 #time { 
     color: var(--hijau1-color); 
-    font-size: 11rem;
+    font-size: 10rem;
     font-weight: 600;
 }
