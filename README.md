@@ -11,7 +11,7 @@ PomoLeaf merupakan aplikasi produktivitas yang dirancang untuk membantu user men
 ## Fitur
 - **⏰ Timer Pomodoro:** Timer Pomodoro: Timer Pomodoro yang dapat disesuaikan untuk mengatur interval belajar dan istirahat.
 - **📝 To-Do List** Pengguna dapat membuat daftar tugas yang perlu diselesaikan, menandai tugas yang sudah selesai, dan menghapus tugas.
-- *🎵 Music Player:** Dengarkan musik untuk membantu Anda tetap fokus saat belajar. Pemutar musik ini terintegrasi dengan layanan musik online Spotify.
+- **🎵 Music Player:** Dengarkan musik untuk membantu Anda tetap fokus saat belajar. Pemutar musik ini terintegrasi dengan layanan musik online Spotify.
 - **📕 Focus Statistic:** lacak waktu belajar dan tugas-tugas yang telah dikerjakan.
 - **⚙️Settings:** atur waktu belajar sesuai keinginan Anda.
 
