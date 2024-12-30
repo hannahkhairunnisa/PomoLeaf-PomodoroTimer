@@ -1,8 +1,8 @@
 # PomoLeaf (Pomodoro Timer)
 
 <div align="center">
-  <img src="assets/img/homepage.png" alt="Tampilan1" width="500"/>
-  <img src="assets/img/music_player.png" alt="Tampilan2" width="500"/>
+  <img src="assets/img/homepage.png" alt="Tampilan1" width="300"/>
+  <img src="assets/img/music_player.png" alt="Tampilan2" width="300"/>
 </div>
 
 ## Deskripsi
