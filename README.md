@@ -1,6 +1,9 @@
 # PomoLeaf (Pomodoro Timer)
-![Tampilan Web](assets/img/homepage.png)
-![Tampilan Web2](assets/img/music_player.png)
+
+<div align="center">
+  <img src="assets/img/homepage.png" alt="Tampilan1" width="500"/>
+  <img src="assets/img/music_player.png" alt="Tampilan2" width="500"/>
+</div>
 
 ## Deskripsi
 PomoLeaf merupakan aplikasi produktivitas yang dirancang untuk membantu user mengelola waktu mereka dengan efektif menggunakan Teknik Pomodoro. Teknik Pomodoro berprinsip bahwa istirahat di sela-sela belajar sangat penting untuk menjaga fokus. Pada umumnya, dengan teknik ini kita dapat belajar selama 25 menit dan lima menit istirahat. PomoLeaf meningkatkan teknik ini dengan fitur tambahan yang membuat manajemen waktu menjadi lebih menarik dan efisien.
@@ -14,7 +17,7 @@ PomoLeaf merupakan aplikasi produktivitas yang dirancang untuk membantu user men
 
 ## Teknologi
 - **Front-End:** HTML, CSS, Javascript, Bootstrap
-- **Back-End:** Node.js
+- **Back-End:** Spotify API
 
 ## Cara menggunakan kode
 1.	Download source code di github.
