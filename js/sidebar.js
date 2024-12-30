@@ -131,22 +131,6 @@ function updateReport() {
     saveFocusTime()
 }
 
-// Fungsi untuk mengupdate laporan
-function updateReport() {
-    const hours = Math.floor(totalFocusTime / 60);
-    const minutes = totalFocusTime % 60;
-    const completedTasks = getCompletedTasks();
-
-    // Update tampilan laporan
-    document.querySelector('.report-box .list-group-item:first-child .d-flex span:last-child')
-        .textContent = `${hours}h ${minutes}m`;
-    
-    document.querySelector('.report-box .list-group-item:last-child .d-flex span:last-child')
-        .textContent = completedTasks;
-
-    saveFocusTime();
-}
-
 // Fungsi untuk menyimpan waktu fokus ke localStorage
 function saveFocusTime() {
     const today = new Date().toISOString().split('T')[0]; // Mendapatkan tanggal hari ini dalam format YYYY-MM-DD
